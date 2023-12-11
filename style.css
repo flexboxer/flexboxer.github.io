@@ -1,1 +1,99 @@
+/* Background format */
+body{
+  background-color:#F3E9D2;
+  padding: 0;
+  margin: 0;
+} 
+/* Top Panel Format */
+/* .top-panel {
+  background-color: #88D498;
+  height: 50px;
+  width: 100%;
+  padding: 10px;
+  margin: 0px;
+} */
+/* Title format */
+title {
+  text-align: center;
+  color: #420217; 
+}
+/* Heading Format */
+h2 {
+  text-align: right;
+  margin: 10px 15px;
+  list-style-type: none;
+}
+/* Create flexbox */
+.flexbox-container {
+  display: flex;
+}
+/* Formatting the flexbox */
+.flexbox-item {
+  flex-grow: 1;
+  font-size: 25px;
+  border: 4mm ridge rgba(211, 220, 50, 0.6);
+}
+/* Formatting the image and adding an animation */
+.rotate {
+  
+  width: 200px;
+  height: 200px;
+  border: 4mm ridge rgba(211, 220, 50, 0.6);
+  animation: spin 5s linear infinite;
+}
 
+/* Creating the animation itself */
+@keyframes spin {
+  from {
+    trainsform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Formatting the canvas */
+canvas {
+  border: 1px solid grey;
+  margin: 0px;
+  width: 100%;
+  height: 400px;
+}
+
+.Survey{
+  
+}
+.flexbox-item-1 {
+  color: #d106d1;
+  max-height: 200px;
+  min-width: 210px;
+  border: 4mm ridge rgba(83, 23, 200, 0.6);
+}
+.flexbox-item-2 {
+  color: #d106d1;
+  min-width: 200px;
+  max-height: 200px;
+  border: 4mm ridge rgba(200, 230, 2, 0.6);
+
+}
+.flexbox-item-3 {
+  color: #d106d1;
+  min-width: 220px;
+  max-height: 200px;
+  border: 4mm ridge rgba(50, 100, 230, 0.6);
+}
+.flexbox-item-4 {
+  color: #d106d1;
+  max-width: 250px;
+  max-height: 200px;
+  border: 4mm ridge rgba(230, 50, 50, 0.6);
+}
+
+.flexbox-item-5{
+  background-color: #88D498;
+  height: 50px;
+  width: 100%;
+  padding: 10px;
+  margin: 0px;
+  font-size: 20px;
+}
